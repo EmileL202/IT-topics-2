@@ -1,0 +1,55 @@
+<!--Emile Lenchant-->
+<!--IT Topics 2-->
+<!--datum van vandaag = 16/03/2022-->
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Oefening 2</title>
+    <meta name="Author" content="Emile Lendchant" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <form action="registreren.php" method="get">
+        <div>
+            <label for="voornaam" style="font-weight: bold;">Voornaam:
+                <input type="text" id="voornaam" name="Voornaam" placeholder="Voornaam">
+            </label>
+        </div>
+        <div>
+            <label for="familienaam" style="font-weight: bold;">Familienaam:
+                <input type="text" id="familienaam" name="Familienaam" placeholder="Familienaam">
+            </label>
+        </div>
+        <div>
+            <label for="gebruikersnaam" style="font-weight: bold;">Gebruikersnaam:
+                <input type="email" id="gebruikersnaam" name="Gebruikersnaam" placeholder="jouw.email@gmail.com"
+                    required>
+            </label>
+        </div>
+        <div>
+            <label for="nickname" style="font-weight: bold;">Nickname:
+                <input type="text" id="nickname" name="Nickname" minlength="5" maxlength="15">
+            </label>
+        </div>
+        <div>
+            <label for="password" style="font-weight: bold;">Password:
+                <input type="password" id="password" name="Password" required>
+            </label>
+        </div>
+        <div>
+            <label for="repeatpassword" style="font-weight: bold;">Herhaal password:
+                <input type="password" id="repeatpassword" name="RepeatPassword" required>
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Registreren">
+        </div>
+    </form>
+
+</body>
+
+</html>
